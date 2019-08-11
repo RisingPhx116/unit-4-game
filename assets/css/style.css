@@ -11,7 +11,7 @@ background-size: cover;
 }
 
 #gameName {
-    background-color: orangered;
+    background-color: #61106e;
     color: white;
     width: 500px;
     height: 100px;
@@ -21,8 +21,8 @@ background-size: cover;
 }
 
 #instructions {
-    background-color: tan;
-    color: green;
+    background-color: #eddfce;
+    color: #0b31ba;
     width: 600px;
     height: 500px;
     font-size: 125%;
@@ -34,13 +34,15 @@ background-size: cover;
 #randomScore {
     width: 350px;
     height: 150px;
-    background-color: green;
+    background-color: #c081c7;
+    color:black;
+    font-size: 40px;
     margin-top: 10px;
     float: left;
 }
 
 #winsLosses {
-    background-color: aquamarine;
+    background-color: #b0d1e8;
     width: 100px;
     height: 150px;
     margin-top: 10px;
@@ -52,7 +54,25 @@ br {
     clear: both;
 }   
 
-.gem{
+#gem1{
+    float: left;
+    margin-right: 5px;
+    margin-top: 10px;
+}
+
+#gem2{
+    float: left;
+    margin-right: 5px;
+    margin-top: 10px;
+}
+
+#gem3{
+    float: left;
+    margin-right: 5px;
+    margin-top: 10px;
+}
+
+#gem4{
     float: left;
     margin-right: 5px;
     margin-top: 10px;
@@ -75,5 +95,6 @@ br {
     width: 350px;
     height: 150px;
     margin-top: 10px;
+    font-size: 40px;
 }
 

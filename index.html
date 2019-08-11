@@ -8,8 +8,8 @@
   <title>Crystal Collectors Game</title>
   <!-- <link rel="stylesheet" type="text/css" href="assets/css/reset.css"> -->
   <link rel="stylesheet" href="assets/css/style.css">
-  <script>src="assets/javascript/crystals.js"</script>
-  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <!-- <script>src="assets/javascript/crystals.js"</script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> -->
 </head>
 
 <body>
@@ -32,23 +32,25 @@
         will change the values of each crystal.</p>
     </div>
     <div id="randomScore"></div>
-    <div id="winsLosses"></div>
+    <div id="winsLosses">
+      <p id="wins">Wins: </p>
+      <p id="losses">Losses: </p>
+    </div>
     <br>
-    <div id="gems">
-      <div class="gem"><img src="assets/images/blue-gem.jpg" width="120" height="150"></div>
-      <div class="gem"><img src="assets/images/purple-gem.jpg" width="120" height="150"></div>
-      <div class="gem"><img src="assets/images/red-gem.jpg" width="120" height="150"></div>
-      <div class="gem"><img src="assets/images/orange-gem.jpg" width="120" height="150"></div>
+    <div class="gems">
+      <div id="gem1"><img src="assets/images/blue-gem.jpg" width="120" height="150"></div>
+      <div id="gem2"><img src="assets/images/purple-gem.jpg" width="120" height="150"></div>
+      <div id="gem3"><img src="assets/images/red-gem.jpg" width="120" height="150"></div>
+      <div id="gem4"><img src="assets/images/orange-gem.jpg" width="120" height="150"></div>
     </div>
     <div id="totalScore">Your total score is: </div>
     <div id="scoreCount"></div>
 
-
-
-
-
-
   </div>
+
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="assets/javascript/crystals.js"></script>
 
 
 </body>
