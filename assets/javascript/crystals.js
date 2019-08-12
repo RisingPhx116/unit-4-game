@@ -51,7 +51,7 @@ $("#gem1").on("click",function(event) {
     else if (scoreCount > randomScore) {
         losses++
         var lossesDiv=document.getElementById("losses");
-        lossesDiv.textContent = "Losses " losses;
+        lossesDiv.textContent = "Losses " + losses;
         reset();
     }
     
