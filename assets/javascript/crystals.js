@@ -51,8 +51,7 @@ $("#gem1").on("click",function(event) {
     else if (scoreCount > randomScore) {
         losses++
         var lossesDiv=document.getElementById("losses");
-        lossesDiv.textContent = "Losses " +
-         losses;
+        lossesDiv.textContent = "Losses " losses;
         reset();
     }
     
@@ -65,10 +64,14 @@ $("#gem2").on("click",function(event) {
     scoreCountDiv.textContent = scoreCount;
     if (scoreCount === randomScore) {
         wins++;
+        var winsDiv=document.getElementById("wins");
+        winsDiv.textContent = "Wins " + wins;
         reset();
     }
     else if (scoreCount > randomScore) {
         losses++
+        var lossesDiv=document.getElementById("losses");
+        lossesDiv.textContent = "Losses " + losses;
         reset();
     }
 });
@@ -80,11 +83,14 @@ $("#gem3").on("click",function(event) {
     scoreCountDiv.textContent = scoreCount;
     if (scoreCount === randomScore) {
         wins++;
-
+        var winsDiv=document.getElementById("wins");
+        winsDiv.textContent = "Wins " + wins;
         reset();
     }
     else if (scoreCount > randomScore) {
         losses++
+        var lossesDiv=document.getElementById("losses");
+        lossesDiv.textContent = "Losses " + losses;
         reset();
     }
 });
@@ -96,10 +102,14 @@ $("#gem4").on("click",function(event) {
     scoreCountDiv.textContent = scoreCount;
     if (scoreCount === randomScore) {
         wins++;
+        var winsDiv=document.getElementById("wins");
+        winsDiv.textContent = "Wins " + wins;
         reset();
     }
     else if (scoreCount > randomScore) {
         losses++
+        var lossesDiv=document.getElementById("losses");
+        lossesDiv.textContent = "Losses " + losses;
         reset();
     }
 });
